@@ -10,16 +10,13 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import warnings
-
-from pandas import DataFrame
-
 warnings.filterwarnings('ignore')
 
 
 # In[3]:
 
 
-breast_cancer = pd.read_csv(r"C:\Users\d4i7v\OneDrive - Lovely Professional University\Documents\Project\Breast-Cancer-Diagnostic-Analysis\breast_cancer_analysis.csv")
+breast_cancer = pd.read_csv(r"C:\Users\d4i7v\OneDrive - Lovely Professional University\Documents\Project\Breast-Cancer-Diagnostic-Analysis\breast_cancer.csv")
 
 
 # In[5]:
